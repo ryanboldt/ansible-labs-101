@@ -1,9 +1,10 @@
 [webservers]
-192.168.29.2 
-192.168.29.3
+web1
+web2
+
 
 [tower]
-192.168.29.4
+ansible-host
 
 [all:vars]
 ansible_connection=ssh
